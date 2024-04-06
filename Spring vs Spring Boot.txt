@@ -1,0 +1,11 @@
+So how will we implement this dependency injection concept using Spring
+
+Before actual coding we need to understand this:
+
+Spring Boot is built on top of Spring Framework
+
+Spring at first needed too many configuritaions for even a simple project
+So Spring Boot (Opinionated Framework) come up to ease the process.
+Spring Boot it will give us the project to run, we dont need too many configurations
+
+Using spring boot means we are also using spring framework since s boot is built on top of spring framework

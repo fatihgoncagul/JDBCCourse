@@ -1,0 +1,20 @@
+INVERSION OF CONTROL
+When we are creating application we need to create objects maintain objects
+and destroy the objects when its necessary
+but this causes us to prolong the business logic or make mistakes
+So to prevent that we invert the control
+by using Spring Framework to create objects for us
+and those objects are placed in IoC Container
+IoC is a principle
+
+DEPENDENCY INJECTION
+But how exactly does that work?
+We use a design pattern called Dependency Injection
+where we have the objects in container but we need to inject them to our application
+So let's say we have a class called laptop and cpu. Laptop object will need cpu in it.
+We have these two objects in a container. How will we put cpu into laptop?
+That's where the dependency injection shows up.
+
+To sum up, using Spring is not just about creating the object also injecting that
+into our application, which is our dependency injection design pattern which we use
+to implement IoC principle
